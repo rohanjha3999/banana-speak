@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 
 .root {
-    --primary-color: #10B981;
+    --primary-color: #DC2626
+    ;
     --secondary-color: #EDE9FE;
 
 }
@@ -26,7 +27,8 @@ body {
 .section {
     padding: 2rem;
     text-align: center;
-    background-color: #10B981;
+    background-color: #DC2626
+    ;
 }
 
 .button {
