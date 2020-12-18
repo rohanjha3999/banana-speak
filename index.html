@@ -1,13 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>banana speak</title>
     <script src="app.js" type="text/javascript"></script>
+    <title>banana speak</title>
+    <style>
+        textarea {
+            width: 80%;
+            height: 10vh;
+            display: block;
+            margin: 1rem;
+            padding: 1rem;
+        }
+        #output{
+            border: 1px solid black;
+            width: 80%;
+            height: 10vh;
+            padding: 1rem;
+            margin: 1rem;
+        }
+    </style>
 </head>
+
 <body>
     <h1>talk banana</h1>
-    <button>click me</button>
+    <textarea id="txt-input" 
+    placeholder="write her your text to translate it to the banana speak"></textarea>
+    <button id="btn-translate">Translate</button>
+    
+    <div style="font-size: larger;">output will come here👇</div>
+    <div id="output"></div>
+    
 </body>
+
+
 </html>
